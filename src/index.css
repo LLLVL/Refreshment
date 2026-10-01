@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  color: white;
+  padding: 32px;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 28px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px;
+}
+
+.card h2 {
+  margin-bottom: 8px;
+  color: #a78bfa;
+}
+
+.card p {
+  color: #aaaaaa;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-remove {
+  background: #ef4444;
+  color: white;
+}
+
+.btn-add {
+  background: #a78bfa;
+  color: white;
+  margin-right: 8px;
+}
+
+.btn-reset {
+  background: #333;
+  color: white;
+}
